@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;                 /*we gotta set height so align-item 
+                                     know exactly what size to use*/
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: lightblue;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    position: relative; /*this sets a relation with .loading-bar-back*/
+}
+
+.counter{
+    font-size: 40px;
+}
+
+.loading-bar-back{
+    position: absolute; /*this makes bar get out of normal 
+                            follow and overlap on each other
+                            and also we want it to be in relationshio with 
+                            container class. so we set container to relative 
+                            otherwise this will be related to body not container*/
+    
+    height: 8px;
+    background-color: lightblue;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.loading-bar-font{
+    position: absolute; /*this makes bar get out of normal 
+                            follow and overlap on each other
+                            and also we want it to be in relationshio with 
+                            container class. so we set container to relative 
+                            otherwise this will be related to body not container*/
+    
+    height: 8px;
+    background-color: red;
+    width: 10%;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,115 @@
+
+body {
+
+  font-family: sans-serif;
+ 
+ 
+}
+
+main{
+
+  
+}
+
+
+.bg {
+  overflow-x: hidden;
+  height:  15px; 
+}
+.background-video {
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:  100vh; 
+
+  object-fit: cover;
+  /* object-position: top -10 right 10px; */
+  z-index: -1;
+}
+
+/* @media screen and (max-width: 500px) {
+  .background-video {
+    min-width: 1248px;
+  }
+} */
+.login-base {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  width: 50%;
+  /* background-color: blueviolet; */
+  
+}
+.social{
+  background-color: red;
+  display: inline-block;
+  vertical-align: top
+}
+.login{
+  position: absolute;
+
+  top: 50%;
+  left: 10%;
+  /* background-color: aqua; */
+}
+
+.play-game{
+  position: absolute;
+  top: 10%;
+  /* background-color: aqua; */
+}
+
+
+.login-Button {
+	box-shadow: 0px 0px 7px 0px #c2b11b;
+	background:linear-gradient(to bottom, #dede2c 5%, #d1231e 100%);
+	background-color:#dede2c;
+	border-radius:42px;
+	border:6px solid #d3d62b;
+	display:inline-block;
+	cursor:pointer;
+	color:#2e022e;
+	font-family: 'Henny Penny', cursive;
+	font-size:2em;
+	padding:31px 39px;
+	text-decoration:none;
+	text-shadow:0px 6px 7px #d6d61a;
+}
+.login-Button:hover {
+	background:linear-gradient(to bottom, #d1231e 5%, #dede2c 100%);
+	background-color:#d1231e;
+}
+.login-Button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.play-now-button {
+	box-shadow: 0px 0px 7px 0px #c2b11b;
+	background:linear-gradient(to bottom, #dede2c 5%, #d1231e 100%);
+	background-color:#dede2c;
+	border-radius:42px;
+	border:6px solid #d3d62b;
+	display:inline-block;
+	cursor:pointer;
+	color:#2e022e;
+	font-family: 'Henny Penny', cursive;
+  font-size:3em;
+	padding:31px 39px;
+	text-decoration:none;
+	text-shadow:0px 6px 7px #d6d61a;
+}
+.play-now-button:hover {
+	background:linear-gradient(to bottom, #d1231e 5%, #dede2c 100%);
+	background-color:#d1231e;
+}
+.play-now-button:active {
+	position:relative;
+	top:1px;
+}
+        
+
