@@ -1,4 +1,1 @@
-
-https://github.com/DnipeT/HTML-CSS-JS/assets/118316586/a7751985-bdbb-4f7d-a08f-40f7462d597c
-
-
+https://github.com/DnipeT/HTML-CSS-JS/assets/118316586/52eb7b7f-d06a-49a1-9503-3a618549a938
