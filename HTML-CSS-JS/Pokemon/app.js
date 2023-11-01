@@ -136,30 +136,3 @@ function  overlayCheck(elementToCheck) {
   }
   return false;
 }
-
-// Fetch champion data /////////////////////////////////////////////////
-
-const api_key = 'RGAPI-06f2273a-ceb5-41a0-b4e4-9a30b2ec535a'; // Replace 'your_api_key' with your Riot Games API key
-const version = '13.7.1'; // Specify the desired Data Dragon version
-const locale = 'en_US'; // Specify the desired locale
-
-const url = `http://ddragon.leagueoflegends.com/cdn/${version}/data/${locale}/championFull.json`;
-
-// Fetch champion data from Data Dragon API
-fetch(url)
-  .then(response => response.json())
-  .then(data => {
-    const championData = data.data;
-    // Extract and display champion names
-    for (const champion of Object.values(championData)) {
-      console.log(champion.name);
-      for (const spell of champion.spells) {
-        console.log(spell.id + " cooldown:" +  spell.cooldown);
-      
-      }
-      // Display champion names on your web page as needed
-      // For example, you can create DOM elements and append them to your HTML
-      // to display the champion names in a list, table, or any other format.
-    }
-  })
-  .catch(error => console.error('Error fetching champion data:', error));
